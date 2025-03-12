@@ -15,7 +15,7 @@ const td8 = document.createElement("td");
 const td9 = document.createElement("td");
 
 
-// First Section
+// The First Parent Element
 parentOne.appendChild(table);
 table.appendChild(tr1);
 tr1.appendChild(td1);
@@ -25,7 +25,7 @@ td1.innerHTML = "Car";
 td2.innerHTML = "Top";
 td3.innerHTML = "Price";
 
-// Second Section
+// The Second Parent Element
 table.appendChild(tr2);
 tr2.appendChild(td4);
 tr2.appendChild(td5);
@@ -34,7 +34,7 @@ td4.innerHTML = "Chevrolet";
 td5.innerHTML = "120 MPH";
 td6.innerHTML = "$10,000";
 
-// Third Section
+// The Third Parent Element
 table.appendChild(tr3);
 tr3.appendChild(td7);
 tr3.appendChild(td8);
